@@ -29,9 +29,9 @@ body {
 
 }
 .container {
-    width: 90%; /*largura*/
-    height: 80vh; /*altura*/
-    display: flex; /*um div ficar de um lado e a outra do outro */
+    width: 90%;
+    height: 80vh;
+    display: flex;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, .212);
     
 }
@@ -51,17 +51,17 @@ body {
 .form {
     width: 50%;
     display: flex;
-    justify-content: center;  /*centraliza horizontalmente*/
-    align-items: center; /*centraliza verticalmente*/
+    justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 3rem;
 
 }
 
 .form .form-header {
-    margin-bottom: 1rem; /*espaço com a div debaixo */
+    margin-bottom: 1rem;
     display: flex;
-    justify-content: space-between; /*espaço entre os dois elementos elemento1 -------------- elemento2*/
+    justify-content: space-between;
 }
 
 .login-button {
@@ -180,8 +180,8 @@ body {
 
 .continue-button button a {
     text-decoration: none;
-    font-size: 0.93rem; /*tamanho da font*/
-    font-weight: 500; /*grossura*/
+    font-size: 0.93rem; 
+    font-weight: 500;
     color: white;
 }
 
