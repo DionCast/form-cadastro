@@ -21,9 +21,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #dfdfdf;
 }
 
+.container {
+    border-radius: 15px;
+
+}
 .container {
     width: 90%; /*largura*/
     height: 80vh; /*altura*/
@@ -37,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff5b1b;
+    background-color: white;
     padding: 1rem;    
 }
 
@@ -119,7 +123,7 @@ body {
 }
 
 .input-box input:hover {
-    background-color: #eeeeee78;
+    background-color: #dfdfdf;
 }
 
 .input-box input:focus-visible {
